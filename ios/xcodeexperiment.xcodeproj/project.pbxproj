@@ -12,6 +12,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		49DDB0615C9B4CFC9AB4EA46 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD576977C16049249F9A7B64 /* noop-file.swift */; };
+		862F0F07292FAB3800B5D2DA /* PushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F0F06292FAB3800B5D2DA /* PushNotification.swift */; };
 		96905EF65AED1B983A6B3ABC /* libPods-xcodeexperiment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-xcodeexperiment.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
@@ -28,6 +29,7 @@
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-xcodeexperiment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xcodeexperiment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2E3173556A471DD304B334 /* Pods-xcodeexperiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xcodeexperiment.debug.xcconfig"; path = "Target Support Files/Pods-xcodeexperiment/Pods-xcodeexperiment.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-xcodeexperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xcodeexperiment.release.xcconfig"; path = "Target Support Files/Pods-xcodeexperiment/Pods-xcodeexperiment.release.xcconfig"; sourceTree = "<group>"; };
+		862F0F06292FAB3800B5D2DA /* PushNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushNotification.swift; path = xcodeexperiment/PushNotification.swift; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = xcodeexperiment/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		CD576977C16049249F9A7B64 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "xcodeexperiment/noop-file.swift"; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		13B07FAE1A68108700A75B9A /* xcodeexperiment */ = {
 			isa = PBXGroup;
 			children = (
+				862F0F06292FAB3800B5D2DA /* PushNotification.swift */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -289,6 +292,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				862F0F07292FAB3800B5D2DA /* PushNotification.swift in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
 				49DDB0615C9B4CFC9AB4EA46 /* noop-file.swift in Sources */,
 			);
